@@ -1,0 +1,14 @@
+name: Placeholder Smoke Test
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder smoke tests
+        run: |
+          echo "Placeholder smoke-test job — will be replaced with real tests."
+          sleep 1200
